@@ -1,18 +1,13 @@
 # Setup Git SSH & Connect GitHub
 
-## Install Git
-Download Git from: https://git-scm.com/install/
-
----
-
-## 1. Open Git Bash
+## Open Git Bash
 - Click Start
 - Search Git Bash
 - Open it
 
 ---
 
-## 2. Create SSH Key
+## Create SSH Key
 
 Run:
 ```bash
@@ -23,7 +18,7 @@ Use the same email as your GitHub account.
 
 ---
 
-## 3. Choose Key Location
+## Choose Key Location
 
 You will see:
 Enter file in which to save the key (C:\Users\LENOVO/.ssh/id_ed25519):
@@ -34,7 +29,7 @@ This will automatically create the `.ssh` folder.
 
 ---
 
-## 4. Passphrase
+## Passphrase
 
 You will be asked:
 Enter passphrase (empty for no passphrase):
@@ -44,7 +39,7 @@ Then press ENTER again to confirm.
 
 ---
 
-## 5. SSH Key Created
+## SSH Key Created
 
 You should see:
 Your identification has been saved in C:\Users\LENOVO\.ssh\id_ed25519  
@@ -54,20 +49,19 @@ This means the key was created successfully.
 
 ---
 
-## 6. Verify SSH Files
+## Verify SSH Files
 
 Run:
 ```bash
 ls ~/.ssh
 ```
-
 You should see:
 id_ed25519  
 id_ed25519.pub
 
 ---
 
-## 7. Copy Public Key
+## Copy Public Key
 
 Run:
 ```bash
@@ -81,7 +75,7 @@ Copy the entire line.
 
 ---
 
-## 8. Add SSH Key to GitHub
+## Add SSH Key to GitHub
 
 1. Open GitHub in browser  
 2. Click profile picture → Settings  
@@ -93,7 +87,7 @@ Copy the entire line.
 
 ---
 
-## 9. Test SSH Connection
+## Test SSH Connection
 
 Run:
 ```bash
