@@ -5,8 +5,6 @@
 - Search Git Bash
 - Open it
 
----
-
 ## Create SSH Key
 
 Run:
