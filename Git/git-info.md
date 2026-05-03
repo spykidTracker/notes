@@ -1,59 +1,127 @@
-Install Git: https://git-scm.com/install/
+# Install Git & Push First Project to GitHub
 
-Check installation in terminal / CMD: 
-    git --version
+## Install Git
+Download and install Git:
+https://git-scm.com/install/
 
-Configure Git
-    git config --global user.name "Your Name"
-    git config --global user.email "your_email@gmail.com"
+---
+
+## Check Installation
+
+Open Terminal / CMD and run:
+
+```bash
+git --version
+```
+
+---
+
+## Configure Git
+
+Set your username and email:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your_email@gmail.com"
+```
 
 Check saved config:
-    git config --list
 
-Create GitHub Account & Repository
-    1. Click New Repository
-    2. Give repo name
-    3. Keep Public (or Private)
-    4. Click Create Repository
+```bash
+git config --list
+```
 
-Create Local Project Folder
-Now initialize Git in this folder
-    git init
+---
 
-Connect Local Git to GitHub Repository
-    git remote add origin https://github.com/username/myproject.git
+## Create GitHub Account & Repository
+
+1. Click **New Repository**
+2. Give repository name
+3. Keep **Public** (or Private)
+4. Click **Create Repository**
+
+---
+
+## Create Local Project Folder
+
+Initialize Git in your project folder:
+
+```bash
+git init
+```
+
+---
+
+## Connect Local Git to GitHub Repository
+
+```bash
+git remote add origin https://github.com/username/myproject.git
+```
 
 Check connection:
-    git remote -v
 
-Add Files to Git
-    Create any file (example index.html)
-    Check file status:
-        git status
+```bash
+git remote -v
+```
 
-    Add files to staging
-        git add .
+---
 
-Commit Files
-    git commit -m "First commit"
+## Add Files to Git
 
-Push Code to GitHub
-    git branch -M main
-    git push -u origin main
+Create any file (example: `index.html`)
 
-Done!
+Check file status:
+
+```bash
+git status
+```
+
+Add files to staging:
+
+```bash
+git add .
+```
+
+---
+
+## Commit Files
+
+```bash
+git commit -m "First commit"
+```
+
+---
+
+## Push Code to GitHub
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+Done!  
 Refresh GitHub → your code is there.
 
-After This — Daily Workflow
-    Whenever you change code:
+---
 
-    git add .
-    git commit -m "describe changes"
-    git push
+## Daily Workflow
 
-Quick Summary (Memory Trick)
+Whenever you change code:
+
+```bash
+git add .
+git commit -m "describe changes"
+git push
+```
+
+---
+
+## Quick Summary (Memory Trick)
+
+```bash
 git init
 git add .
 git commit -m "message"
 git remote add origin URL
 git push -u origin main
+```
