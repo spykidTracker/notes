@@ -5,7 +5,7 @@ This repository contains my personal learning notes.
 ---
 
 ## 🧰 Git & GitHub
-- [SSH Setup](Git/git-ssh-setup.md)
+- [SSH Setup](Git/SSH-setup.md)
 - [Git Commands](Git/git-commands.md)
 - [GitHub Workflow](Git/github-workflow.md)
 
