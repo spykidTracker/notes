@@ -6,29 +6,7 @@ This repository contains my personal learning notes.
 
 ## 🧰 Git & GitHub
 - [SSH Setup](Git/SSH-setup.md)
-- [Git Commands](Git/git-commands.md)
-- [GitHub Workflow](Git/github-workflow.md)
+- [Git Commands](Git/git-info.md)
+- [Upload project on GitHub](Git/upload-project-using-ssh.md)
 
 ---
-
-## 🐍 Python
-- [Python Basics](Python/python-basics.md)
-- [OOP in Python](Python/oop-python.md)
-- [Django Notes](Python/django-notes.md)
-
----
-
-## 🗄️ SQL
-- [SQL Basics](SQL/sql-basics.md)
-- [SQL Joins](SQL/joins.md)
-- [Subqueries](SQL/subqueries.md)
-
----
-
-## 🐧 Linux
-- [Linux Commands](Linux/linux-commands.md)
-
----
-
-## 💻 VS Code
-- [VS Code Tips](VSCode/vscode-tips.md)
